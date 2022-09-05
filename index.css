@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+:root{
+    --clr-text:#5a5a5a
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-text);
+    font-size:  1.125rem;
+}
+
+.header_title{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    display: block;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+}
+
+h2, 
+h3{
+    line-height: 0.8;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+p{
+    margin-bottom: .85em;
+}
+
+/* HOME PAGE STYLING*/
+
+/* NAV STYLE */
+
