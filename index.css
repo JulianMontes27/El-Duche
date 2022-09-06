@@ -16,6 +16,11 @@ html{
     font-size:  1.125rem;
 }
 
+body{
+    margin: 0;
+    text-align: center;
+}
+
 .header_title{
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
@@ -39,6 +44,7 @@ h4{
 h2, 
 h3{
     line-height: 0.8;
+    letter-spacing: 1px;
 }
 
 h2{
@@ -49,7 +55,92 @@ p{
     margin-bottom: .85em;
 }
 
+.section_title_small{
+    font-size: 3rem;
+}
+
+.section_title_small small{
+    font-size: 0.8em;
+    display: block;
+}
+.text_primary{
+    color:lightcoral
+}
+
+section{
+    padding: 3em 1em;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color:red;
+    font-size: 4rem;
+
+}
 /* HOME PAGE STYLING*/
 
 /* NAV STYLE */
+
+header{
+    padding: 1em 0 2em ;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color:steelblue;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus{
+    color:lightcoral;
+    text-decoration: underline;
+}
+
+.hero{
+    background-color: #333;
+    background-image: url(https://pbs.twimg.com/media/D7lX5IIXkAEIf-M.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15vh 2em;   
+}
+
+.intro{
+    text-align: center;
+}
+
+.about_us{
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0;
+}
+
+.about_us_intro{
+    background-image:url(https://media.istockphoto.com/photos/picknick-outside-in-autumn-nature-picture-id496494870);
+    background-color: #555;
+    background-blend-mode: multiply;
+    padding: 3em 1em 1em
+}
+
+.about_us_body{
+    padding: 0.7em 1em 0.7em;
+}
 
