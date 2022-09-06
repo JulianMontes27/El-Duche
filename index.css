@@ -144,3 +144,85 @@ nav a:focus{
     padding: 0.7em 1em 0.7em;
 }
 
+.btn_group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 2em 0.4em ;
+}
+.btn{
+    padding: 1em;
+    text-decoration: none;
+    background-color: lightcoral;
+    color:white;  
+    margin: 1em; 
+    border-radius: 0.5em;
+    flex: 1 1 0;
+}
+
+.order_online{
+    background-color: lightgray;
+    padding:2em 1em 1.5em;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    /*background: lightgoldenrodyellow;*/
+    background-color: white;
+    border-radius: 0.50em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    box-shadow: 0 0 1em rgba(0,0,0,0.4);
+    /*border: 1px solid red;*/
+}
+
+.product h3{
+    padding: 0.5em;
+    color: rgb(200, 167, 123);
+    font-size: 2rem;
+}
+
+.product p{
+    padding: 1em;
+}
+
+.product_showcase{
+    padding-bottom: 0;
+    background-color: bisque;
+}
+
+.btn_footer{
+    background-color: goldenrod;
+}
+
+.btn_hero{
+    background-color: purple;
+    margin-top: 0em;
+}
+
+.footer_nav{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+.footer_nav li a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 1.3rem;
+}
+
+.footer_nav li a:hover{
+    color: purple;
+}
+
+.btn_group_last{
+    margin-top:1em
+}
