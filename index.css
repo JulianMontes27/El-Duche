@@ -192,6 +192,10 @@ nav a:focus{
     padding: 1em;
 }
 
+.product img{
+    min-width: 100%;;
+}
+
 .product_showcase{
     padding-bottom: 0;
     background-color: bisque;
@@ -225,4 +229,8 @@ nav a:focus{
 
 .btn_group_last{
     margin-top:1em
+}
+
+.btn_footer:hover{
+    background-color: rgb(174, 132, 23);
 }
