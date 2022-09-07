@@ -249,7 +249,7 @@ footer p{
     background-color: rgb(174, 132, 23);
 }
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 1000px){
     section{
         padding: 6em 1em
     }
@@ -306,7 +306,7 @@ footer p{
     .product{
        flex:1;
         margin: 1em;
-    }
+    } 
 
     .product img{
         min-width: 100%;
